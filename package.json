@@ -17,8 +17,8 @@
   "dev": "NODE_OPTIONS=--openssl-legacy-provider yarn workspace web start"
 },
   "resolutions": {
-    "@types/react": "file:./packages/blocks/core/node_modules/@types/react",
-    "@types/node": "18.11.19"
+    "@types/react": "^18.2.44",
+    "@types/node": "^18.11.19"
   },
   "dependencies": {
     "@react-native-community/checkbox": "^0.5.13",
@@ -78,18 +78,18 @@
     "react-native-pell-rich-editor": "^1.3.0"
   },
   "devDependencies": {
-    "@types/node": "file:./packages/blocks/core/node_modules/@types/node",
-    "@types/react": "file:./packages/blocks/core/node_modules/@types/react",
-    "@types/react-native": "file:./packages/blocks/core/node_modules/@types/react-native",
-    "@types/react-native-check-box": "file:./packages/blocks/core/node_modules/@types/react-native-check-box",
-    "@types/react-navigation": "file:./packages/blocks/core/node_modules/@types/react-navigation",
-    "@types/recompose": "file:./packages/blocks/core/node_modules/@types/recompose",
-    "@types/yup": "file:./packages/blocks/core/node_modules/@types/yup",
-    "concurrently": "file:./packages/blocks/core/node_modules/concurrently",
-    "enzyme-adapter-react-16": "file:./packages/blocks/core/node_modules/enzyme-adapter-react-16",
-    "jest-cucumber": "file:./packages/blocks/core/node_modules/jest-cucumber",
-    "react-native-save-view": "file:./packages/blocks/core/node_modules/react-native-save-view",
-    "typescript": "file:./packages/blocks/core/node_modules/typescript",
+    "@types/node": "^18.11.19",
+    "@types/react": "^18.2.44",
+    "@types/react-native": "^0.72.5",
+    "@types/react-native-check-box": "^2.1.7",
+    "@types/react-navigation": "^3.0.14",
+    "@types/recompose": "^0.30.10",
+    "@types/yup": "^0.29.13",
+    "concurrently": "^8.2.2",
+    "enzyme-adapter-react-16": "^1.15.7",
+    "jest-cucumber": "^3.0.1",
+    "react-native-save-view": "^1.0.0",
+    "typescript": "^5.2.2",
     "@types/react-select": "^3.0.10",
     "@testing-library/dom": "8.18.1",
     "@testing-library/jest-dom": "5.16.5",
