@@ -10,7 +10,7 @@
     "@material-ui/lab": "^4.0.0-alpha.61",
     "@material-ui/pickers": "^3.3.10",
     "@pdftron/webviewer": "^8.10.0",
-    "@react-native-community/async-storage-backend-web": "^1.0.0",
+    "@react-native-community/async-storage-backend-web": "2.0.0-rc.3",
     "babel-preset-es2015": "^6.24.1",
     "firebase": "^9.0.0",
     "gapi-script": "^1.2.0",
