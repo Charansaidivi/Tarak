@@ -1,0 +1,6 @@
+# GitHub Pages Configuration
+# This file is used to configure GitHub Pages to publish from a specific branch and directory.
+
+publish:
+  branch: main
+  directory: /packages/web/build
