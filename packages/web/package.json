@@ -71,7 +71,6 @@
     "brotli-webpack-plugin": "^1.1.0",
     "compression-webpack-plugin": "^10.0.0",
     "concurrently": "^8.2.2",
-    "cpx": "^1.5.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "react-app-rewired": "^2.2.1"
