@@ -32,8 +32,7 @@
     "html-react-parser": "^3.0.0"
   },
   "scripts": {
-    "configDeps": "cpx \"../../node_modules/@pdftron/webviewer/public/**/*\" ./public/lib",
-    "compile": "yarn configDeps && tsc -b",
+    "compile": "yarn tsc -b",
     "prestart": "npm run compile",
     "start": "concurrently \"npm run compile -- -w --incremental\" \"HTTPS=true npm run _start\"",
     "windows_start": "concurrently \"npm run compile -- -w --incremental\" \"npm run _start\"",
